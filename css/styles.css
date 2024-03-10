@@ -47,15 +47,20 @@ button {
 }
 
 /* Logotype */
+.header {
+  
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation {
   display: flex;
+  align-items: center;
 }
 
 .logo-header {
@@ -79,7 +84,7 @@ button {
 
 .navigation-list {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 40px;
 }
 
